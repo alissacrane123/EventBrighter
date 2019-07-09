@@ -1,0 +1,128 @@
+.modal-background {
+  position: fixed;
+  min-height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 5000;
+  overflow: scroll;
+  top: 0;
+}
+
+.modal-child, .modal-child2  {
+  background: white;
+  box-sizing: border-box;
+  position: absolute;
+  width: 500px;
+  height: 450px;
+  border-radius: 4px;
+  overflow: scroll;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.modal-child2 {
+  height: 650px;
+}
+
+.login-form-cont, .signup-form-cont {
+  height: 100%;
+  width: 100%;
+}
+
+.login-form, .signup-form {
+  height: 100%;
+  width: 100%;
+  padding: 10%;
+  color: rgb(107, 104, 104);
+}
+
+.login-head-cont, .signup-head-cont {
+  margin-bottom: 40px;
+}
+
+.login-head, .signup-head {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.login-subhead {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.login-input-cont { 
+  height: 80px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.signup-input-cont {
+  height: 60px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;  
+  margin-bottom: 15px;
+}
+
+.signup-names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.login-input, .signup-input, .signup-name {
+  line-height: 30px;
+  font-size: 16px;
+  width: 90%;
+  margin: auto;
+  border:none;
+  border-bottom: 1px solid rgb(204, 200, 200);
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.signup-name {
+  width: 40%;
+}
+
+.login-input:focus, .signup-input:focus, .signup-name:focus{
+    outline: none;
+}
+
+.login-input::-webkit-input-placeholder, .signup-input::-webkit-input-placeholder,
+.signup-name::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.errors-cont {
+  text-align: center;
+  color: red;
+}
+
+.login-button, .signup-button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background: rgb(252, 212, 219);
+  border: none;
+  font-size: 20px;
+  color: rgb(107, 104, 104);
+  margin-top: 10px;
+}
+
+.signup-left, .signup-right {
+  display: inline-block;
+  width: 50%;
+}

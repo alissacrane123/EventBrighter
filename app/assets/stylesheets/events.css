@@ -1,0 +1,12 @@
+.event-index-cont {
+  height: 100%;
+  width: 100%;
+}
+
+.events-cont {
+  height: 100%;
+  width: 100%;
+  padding-top: 90px;
+  display: flex;
+
+}

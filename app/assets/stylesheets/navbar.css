@@ -1,0 +1,48 @@
+.navbar-cont {
+  /* position: fixed; */
+  /* top: 0; */
+  height: 60px;
+  width: 100%;
+
+  /* background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783; */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-left-cont, .navbar-right-cont {
+  height: 100%;
+  width: 50%;
+}
+
+.nav-buttons {
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  line-height: 90px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.nav-button {
+  width: 100px;
+  /* Font-Family: 'Playfair Display', Serif; */
+  Font-Family: 'Cabin', Sans-Serif;
+  Font-Size: 16px;
+  /* font-family: 'Rubik Mono One', sans-serif; */
+  /* font-weight: bold; */
+  color: rgb(107, 104, 104);
+  text-align: center;
+}
+
+.logo-text {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+/* .logo1 {
+  width: 178px;
+  height: 58px;
+} */
